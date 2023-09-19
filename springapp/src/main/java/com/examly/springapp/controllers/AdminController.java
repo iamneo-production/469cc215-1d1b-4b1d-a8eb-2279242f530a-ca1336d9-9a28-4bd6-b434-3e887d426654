@@ -90,7 +90,7 @@ public class AdminController {
     public ResponseEntity<String> deletePlayer(@PathVariable Long playerId) {
         adminService.deletePlayer(playerId);
         return ResponseEntity.ok("Player deleted successfully");
-        System.out.println("hello");
+        
     }
 }
 

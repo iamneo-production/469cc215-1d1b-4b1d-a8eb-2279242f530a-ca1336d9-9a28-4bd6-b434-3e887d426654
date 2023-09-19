@@ -59,6 +59,10 @@ public class OrganizerController {
     @GetMapping("/player-list")
     public List<Player> getPlayerList(@RequestParam Long teamId) {
         return organizerService.getPlayerList(teamId);
+        System.out.println("hello");
+        System.out.println("hai");
+        System.out.println("welcome");
+        System.out.println("world");
     }
   
 }
